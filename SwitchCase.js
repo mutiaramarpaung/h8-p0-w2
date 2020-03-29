@@ -70,9 +70,5 @@ switch(bulan){
     case 12:
         console.log('Desember');
         console.log(tanggal + ' ' + 'Desember' + ' ' + tahun);
-        break;
-    default:
-      console.log('tidak ada bulan');
-      break;
   }
     
