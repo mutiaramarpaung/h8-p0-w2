@@ -13,8 +13,8 @@ function xo(str) {
 }
 
 /** mencoba xoxo/
-console.log(bandingkanAngka(5, 8)); // true
-console.log(bandingkanAngka(5, 3)); // false
-console.log(bandingkanAngka(4, 4)); // -1
-console.log(bandingkanAngka(3, 3)); // -1
-console.log(bandingkanAngka(17, 2)); // false 
+console.log(xo('xoxoxo')); // true
+console.log(xo('oxooxo')); // false
+console.log(xo('oxo')); // false
+console.log(xo('xxxooo')); // true
+console.log(xo('xoxooxxo')); // true 
