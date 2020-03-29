@@ -25,3 +25,22 @@ for (let counter=1; counter<21; counter++){
 for (let counter=20; counter>0; counter--){
     console.log(counter + ' - ' + '' + word2 );
 }
+
+/** 3. Angka Ganjil dan Genap */
+/** problem 1 perulangan 1-100 pertambahan counter 1 */
+for (let nilai=0; nilai>=0 && nilai<100; nilai++){
+    console.log(nilai +1);
+}
+
+
+/** problem 2 perulangan, periksa ganjil dan genap */
+
+
+/** problem 3 perulangan 1-100 pertambahan counter 1 */
+for (let nilai=0; nilai>=0 && nilai<91; nilai++){
+    console.log(nilai +2);
+    console.log(nilai +5);
+    console.log(nilai +9);
+}
+
+/** problem 4 periksa 3 kelipatan 3 */
