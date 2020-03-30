@@ -13,8 +13,8 @@ function xo(str) {
 }
 
 /** mencoba xoxo/
-console.log(xo('xoxoxo')); // true
-console.log(xo('oxooxo')); // false
-console.log(xo('oxo')); // false
-console.log(xo('xxxooo')); // true
-console.log(xo('xoxooxxo')); // true 
+console.log(xo('xoxoxo'));
+console.log(xo('oxooxo')); 
+console.log(xo('oxo')); 
+console.log(xo('xxxooo')); 
+console.log(xo('xoxooxxo'));
