@@ -1,54 +1,51 @@
-/**algoritma_hitung_resultan_gaya;
- * input 600 kg as massa;
- * input 2 m/s2 as velocity;
- * resultant force is massa times velocity;
- * force resultant value;
- * finish;
+/**algoritma_hitung_resultan_gaya
+ * input 600 kg as massa
+ * input 2 m/s2 as velocity
+ * resultant force is massa times velocity
+ * force resultant value
+ * finish
  * 
- * pseudocode_hitung_resultan_gaya;
- * SET "600 kg as massa";
- * SET "2 as velocity";
- * COMPUTE "massa" times "velocity";
- * SAVE previous the computation result;
- * SHOW the computation result;
- * END;
+ * pseudocode_hitung_resultan_gaya
+ * SET "massa" to 600
+ * SET "velocity" to 2
+ * COMPUTE "massa" times "velocity"
+ * SAVE "resultan" from previous calculation
+ * SHOW "resultan"
  * */
 
 
-/** algoritma_hitung_tahun_kabisat;
- * input value as year;
- * first_value is year divide four;
- * if first value is not one, the year not kabisat;
- * if first_value is one, get the second value;
- * second_value is first_value divide one hundred;
- * if first value and second_value is one, the year is kabisat;
- * show the kind year;
- * finish;
+/** algoritma_hitung_tahun_kabisat
+ * input value as year
+ * first_value is year divide four
+ * if first value is not one, the year not kabisat
+ * if first_value is one, get the second value
+ * second_value is first_value divide one hundred
+ * if first value and second_value is one, the year is kabisat
+ * show the kind year
  * 
  * pseudocode_tahun_kabisat 
- * SET "number as year";
- * COMPUTE "number" divide four;
- * if the score is one;
- *      compute the score divide one hundred;
- *          if the score is one, year is kabisat;
- *              else the score not one, year is not kabisat;
- * else the score is not one, year is not kabisat;
- * SAVE previous the kind year; 
- * SHOW the kind year;
- * END;
+ * SET "year" to any number
+ * COMPUTE "year" divide four
+ * if the score is one
+ *      compute the score divide one hundred
+ *          if the score is one, year is kabisat
+ *              else the score not one, year is not kabisat
+ * else the score is not one, year is not kabisat
+ * SAVE "kind year"
+ * SHOW the "kind year"
  * */
 
 /**algoritma_laundry_day
- * get twenty clothes on box;
- * setting your quantity clothes are twenty;
- * put one by one clothes in washing machine;
- * when the clothes turn in one by one the display will show how much the clothes turn in;
- * when there are less than twenty clothes, the washing machine does not start;
- * when there are more than twenty clothes, the washing machine does not start;
- * when there are twenty clothes, the washing machine does start;
- * the washing machine does start;
- * after 5 minutes the machine stop;
- * finish;
+ * get twenty clothes on box
+ * setting your quantity clothes are twenty
+ * put one by one clothes in washing machine
+ * when the clothes turn in one by one the display will show how much the clothes turn in
+ * when there are less than twenty clothes, the washing machine does not start
+ * when there are more than twenty clothes, the washing machine does not start
+ * when there are twenty clothes, the washing machine does start
+ * the washing machine does start
+ * after 5 minutes the machine stop
+ * finish
  * */
 
 
