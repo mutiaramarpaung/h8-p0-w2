@@ -34,22 +34,25 @@ for (let nilai=0; nilai>=0 && nilai<100; nilai++){
 
 
 /** problem 2 perulangan, periksa ganjil dan genap */
-for (let nilai=0; nilai>=0 && nilai<100; nilai++){
-    console.log(nilai +1);
+for (let nilai=1; nilai>=0 && nilai<100; nilai++){
     if (nilai %2===0){
-        console.log('bilangan genap')
+        console.log(nilai + ' bilangan genap ')
     }
-        else{
+        else {
+        console.log(nilai + ' bilangan ganjil ')
         }
 }
 
 
 /** problem 3 dan 4 perulangan 1-100 pertambahan counter 1 */
-for (let nilai=0; nilai>=0 && nilai<91; nilai++){
-    console.log(nilai +2);
-    console.log(nilai +5);
-    console.log(nilai +9);
+for (let nilai=0; nilai>=0 && nilai<101; nilai++){
     if (nilai %3===0){
-        console.log('bilangan kelipatan 3')
+        console.log(nilai + ' bilangan kelipatan 3')
+    }
+    if (nilai %4===0){
+        console.log(nilai)
+    }
+    if (nilai %9===0){
+        console.log(nilai)
     }
 }
