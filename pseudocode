@@ -44,49 +44,42 @@
  * when there are more than twenty clothes, the washing machine does not start
  * when there are twenty clothes, the washing machine does start
  * the washing machine does start
- * after 5 minutes the machine stop
- * finish
  * */
 
 
 /** pseudocode_laundry_day
- * SET "number as quantity";
- * COMPUTE number on the washing machine;
- * STORE the clothes one by one to washing machine;
- * if the clothes <20;
- *      add a clothe;
- * elseif the clothes >20 ;
- *      reduce a clothe;
- * else the clothes =20;
- *      washing machine start; 
- * washing machine START;
- * washing time is 5 minutes; 
- * washing machine STOP;
- * END;
+ * SET "quantity washing machine" to any clothes
+ * INPUT the clothes one by one to washing machine
+ * COMPUTE quantity on display
+ *   if the clothes <20
+ *      add a clothe
+ *   else if the clothes >20 
+ *      reduce a clothe
+ *   else the clothes ==20
+ *      washing machine start
+ * washing machine start
  * */
 
 /** algoritma_periksa_kuku
- * first table is the front and leftmost table;
- * the order of the table to the right forms the letter s;
- * the teacher walk in to students one by one;
- * the students show their snails;
- * if student's snail long, the teacher give a punishment to the student;
- * if student's snail not long, the teacher give a prise to the student;
- * do it until forty students;
- * teacher finish check;
+ * first table is the front and leftmost table
+ * the order of the table to the right forms the letter s
+ * the teacher walk in to students one by one
+ * the students show their snails
+ * if student's snail long, the teacher give a punishment to the student
+ * if student's snail not long, the teacher give a prise to the student
+ * do it until forty students
+ * teacher finish check
  * */
 
 
  /** pseudocode_periksa_kuku
-  * SET "techer as checker";
-  * SET "students as people";
-  * SET "first table on the front and leftmost";
-  * SET "teacher's way is walk to right forms letter s one by one";
-  * SET "students show their nails";
-  * STORE "teacher walk to student";
-  * if student's nail is long;
-  *     teacher give a punishment;
-  * else student's nail is not long;
-  *       teacher give a praise;
-  * END
+  * SET "techer" to 1
+  * SET "students" to 40
+  * for (table = 1; table ==40; table++)
+  *   STORE "teacher walk to student"
+  *       if student's nail is long
+  *          teacher give a punishment
+  *       else student's nail is not long
+  *          teacher give a praise
+  * end
   */
